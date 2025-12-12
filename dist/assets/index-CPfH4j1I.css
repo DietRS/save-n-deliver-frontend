@@ -1,0 +1,1 @@
+html,body,#root{height:100%;margin:0}body{background:radial-gradient(1200px 600px at 10% 10%,#0a2a33,#071e24 40%,#041316);color:#f2f7f8;font-family:Roboto,system-ui,-apple-system,Segoe UI,Arial,sans-serif}*{box-sizing:border-box}@keyframes pulse{0%{transform:scale(1);opacity:.9}50%{transform:scale(1.1);opacity:1}to{transform:scale(1);opacity:.9}}
