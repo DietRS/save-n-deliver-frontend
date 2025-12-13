@@ -1,24 +1,12 @@
+// src/components/Layout/LogoBurst.tsx
 import React from "react";
-//import Logo from "../../assets/Logo.png";
+import { Typography } from "@mui/material";
 
-type LogoBurstProps = {
-  size?: number;
-  style?: React.CSSProperties;
-};
-
-const LogoBurst: React.FC<LogoBurstProps> = ({ size = 60, style }) => {
+const LogoBurst: React.FC = () => {
   return (
-    <img
-      //src={Logo}
-      alt="Save'nDeliver logo"
-      style={{
-        width: size,
-        height: "auto",
-        objectFit: "contain",
-        borderRadius: 8,
-        ...style,
-      }}
-    />
+    <Typography variant="h6" sx={{ fontWeight: "bold", color: "primary.main" }}>
+      Save’nDeliver
+    </Typography>
   );
 };
 
