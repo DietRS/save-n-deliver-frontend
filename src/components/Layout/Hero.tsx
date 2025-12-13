@@ -1,7 +1,7 @@
 import React from "react";
-import LogoBurst from "./LogoBurst";
+//import LogoBurst from "./LogoBurst";
 
-<LogoBurst size={80} style={{ marginBottom: 16 }} />
+//<LogoBurst size={80} style={{ marginBottom: 16 }} />
 
 const Hero: React.FC = () => {
   return (
@@ -18,8 +18,7 @@ const Hero: React.FC = () => {
     >
       {/* Left side: animated logo + tagline */}
       <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
-        <LogoBurst size={100} />
-        <div>
+                <div>
           <h1
             style={{
               margin: 0,
