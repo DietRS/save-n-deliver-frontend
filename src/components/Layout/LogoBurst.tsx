@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Logo.png";
+//import Logo from "../../assets/Logo.png";
 
 type LogoBurstProps = {
   size?: number;
@@ -9,7 +9,7 @@ type LogoBurstProps = {
 const LogoBurst: React.FC<LogoBurstProps> = ({ size = 60, style }) => {
   return (
     <img
-      src={logo}
+      //src={Logo}
       alt="Save'nDeliver logo"
       style={{
         width: size,
